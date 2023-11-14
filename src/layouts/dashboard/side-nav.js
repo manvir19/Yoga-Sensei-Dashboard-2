@@ -71,21 +71,21 @@ export const SideNav = (props) => {
                 color="inherit"
                 variant="subtitle1"
               >
-                Devias
+                YOGA SENSEI
               </Typography>
-              <Typography
+              {/* <Typography
                 color="neutral.400"
                 variant="body2"
               >
-                Production
-              </Typography>
+                Pro
+              </Typography> */}
             </div>
-            <SvgIcon
+            {/* <SvgIcon
               fontSize="small"
               sx={{ color: 'neutral.500' }}
             >
               <ChevronUpDownIcon />
-            </SvgIcon>
+            </SvgIcon> */}
           </Box>
         </Box>
         <Divider sx={{ borderColor: 'neutral.700' }} />
@@ -123,7 +123,7 @@ export const SideNav = (props) => {
             })}
           </Stack>
         </Box>
-        <Divider sx={{ borderColor: 'neutral.700' }} />
+        {/* <Divider sx={{ borderColor: 'neutral.700' }} />
         <Box
           sx={{
             px: 2,
@@ -173,7 +173,7 @@ export const SideNav = (props) => {
           >
             Pro Live Preview
           </Button>
-        </Box>
+        </Box> */}
       </Box>
     </Scrollbar>
   );
